@@ -1,0 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using TaskManagementAPI.Models;
+namespace TaskManagementAPI;
+
+public class AppDbContext : DbContext
+{
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options){}
+    public DbSet<TaskItem> Tasks {get;set;}
+}

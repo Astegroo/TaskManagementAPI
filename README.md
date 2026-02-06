@@ -19,7 +19,6 @@ ASP.NET Core REST API for managing tasks.
 ### Testing
 
 - Swagger UI: https://localhost:5010/swagger
-- Import Postman collection for testing
 
 ## Endpoints
 

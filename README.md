@@ -12,7 +12,7 @@ ASP.NET Core REST API for managing tasks.
 
 1. Clone the repository
 2. Navigate to project folder
-3. Run: `dotnet restore`
+3. Run: `dotnet ef migrations add InitialCreate`
 4. Run: `dotnet ef database update`
 5. Run: `dotnet run`
 
